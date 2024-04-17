@@ -2,7 +2,7 @@
 
 // import Link from 'next/link';
 
-import { Link } from 'react-scroll';
+import {Link} from 'react-scroll';
 
 import React from 'react';
 import './Navbar.css';

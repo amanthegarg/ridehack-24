@@ -1,16 +1,16 @@
-'use client';
+"use client";
 
-import { motion } from 'framer-motion';
-import './hero.css';
+import { motion } from "framer-motion";
+import "./hero.css";
 
-import { useEffect } from 'react';
-import styles from '../styles';
-import { slideIn, staggerContainer, textVariant } from '../utils/motion';
+import { useEffect } from "react";
+import styles from "../styles";
+import { slideIn, staggerContainer, textVariant } from "../utils/motion";
 
 function Hero() {
   useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
     script.async = true;
     script.defer = true;
     document.body.appendChild(script);
@@ -28,42 +28,23 @@ function Hero() {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <div
-          className="flex justify-center items-center flex-col  z-10 lg:mt-[70px] mt-[70px]"
-          id="heroPage"
-        >
-          <motion.h1
-            variants={textVariant(1.1)}
-            className={styles.heroHeading}
-            id="head"
-          >
-            The Incognito
-          </motion.h1>
-          <motion.div
-            variants={textVariant(1.1)}
-            className="flex flex-row justify-center items-center"
-          >
-            <h1 className={styles.heroHeading}>Realm</h1>
-            {/* <div className={styles.heroDText} />
-          <h1 className={styles.heroHeading}>Ness</h1> */}
-          </motion.div>
-        </div>
-
         <div className="frontPageBtn">
           <div
             className="apply-button"
             data-hackathon-slug="hackstreet24"
             data-button-theme="light"
-            style={{ height: '44px', width: '312px' }}
+            style={{ height: "44px", width: "312px" }}
           />
-
           <button className="Btn font-normal" type="button">
-            <a href="https://discord.com/invite/zKFdRQ4z9D">Discord</a>
+            <a href="">Scan</a>
+          </button>
+          <button className="Btn font-normal" type="button">
+            <a href="">Upload</a>
           </button>
         </div>
 
         <motion.div
-          variants={slideIn('right', 'tween', 0.1, 1.5)}
+          variants={slideIn("right", "tween", 0.1, 1.5)}
           className="relative w-full md:-mt-[-70px] -mt-[-20px]"
         >
           <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
