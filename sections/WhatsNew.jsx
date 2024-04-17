@@ -22,7 +22,7 @@ function WhatsNew() {
           className="flex-[0.75] flex justify-center flex-col"
         >
           <div className="w-[90vw]">
-            <TitleText title="Rewards🏆" textStyles="text-center" />
+            <TitleText title="s🏆" textStyles="text-center" />
           </div>
           <div className="w-[90vw]">
             <TitleText title="PRIZE POOL OF INR 50K" textStyles="text-center" />

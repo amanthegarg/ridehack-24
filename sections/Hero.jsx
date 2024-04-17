@@ -1,4 +1,5 @@
-"use client";
+
+'use client';
 
 import { motion } from "framer-motion";
 import "./hero.css";
@@ -28,6 +29,9 @@ function Hero() {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
+
+        
+
         <div className="frontPageBtn">
           <div
             className="apply-button"
@@ -63,8 +67,11 @@ function Hero() {
               />
             </div>
           </a>
+
+          
         </motion.div>
-      </motion.div>
+        </motion.div>
+  
     </section>
   );
 }
