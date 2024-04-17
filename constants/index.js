@@ -1,12 +1,12 @@
 export const exploreWorlds = [
   {
     id: 'Murder-1',
-    imgUrl: '/edu.jpg',
+    imgUrl: '/image1.jpg',
     title: 'Education',
   },
   {
     id: 'Murder-2',
-    imgUrl: '/webimage.jpg',
+    imgUrl: '/image2.jpg',
     title: 'Web 3.0/Blockchain',
   },
   {
