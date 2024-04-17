@@ -1,7 +1,7 @@
 function Head() {
   return (
     <>
-      <title>HackStreet 2.0</title>
+      <title>SmartMed</title>
       <meta name="viewport" content="width=device-width, initial-scale=1" />
       <meta
         name="description"
