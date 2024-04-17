@@ -1,12 +1,12 @@
 export const exploreWorlds = [
   {
     id: 'Murder-1',
-    imgUrl: '/edu.jpg',
+    imgUrl: '/image1.jpg',
     title: 'Education',
   },
   {
     id: 'Murder-2',
-    imgUrl: '/webimage.jpg',
+    imgUrl: '/image2.jpg',
     title: 'Web 3.0/Blockchain',
   },
   {
@@ -64,32 +64,32 @@ export const newFeatures2 = [
 export const insights = [
   {
     imgUrl: '/image32.jpeg',
-    title: ' Who can attend?',
-    subtitle: 'Hackstreet is open to students of all colleges.',
+    title: ' Question 1 ',
+    subtitle: 'Answer',
   },
   {
     imgUrl: '/image30.jpeg',
-    title: ' I am a first time hacker, what should I do?',
+    title: ' Question 2',
     subtitle:
-      '  No worries, we love to welcome first time hackers and start their hacking journey from a hackathon. We have some awesome workshops and events which will help you get started with hackathon and hacking in general.',
+      '  Answer ',
   },
   {
     imgUrl: '/image36.jpeg',
-    title: ' How team formation works?',
+    title: ' Question 3',
     subtitle:
-      "You can form a team with 2-4 members. If you don't have a team, there'll be plenty of opportunities for you to meet new hackers and form a team!",
+      ' Answer ',
   },
   {
     imgUrl: '/image34.jpeg',
-    title: '   How to register myself in the hackathon??',
+    title: '   Question 4',
     subtitle:
-      'All you need is to fill your details above by just clicking on the Devfolio button and also join Discord, we will guide you through everything there',
+      ' Answer ',
   },
   {
     imgUrl: '/image31.jpeg',
     title: '   I have more questions?',
     subtitle:
-      '    Reach us directly on our Discord Server we would be happy to help you.',
+      '    Reach us directlly through mail we would be happy to help you.',
   },
 ];
 
@@ -97,21 +97,21 @@ export const socials = [
   {
     name: 'telegram',
     url: '/discord.svg',
-    href: 'https://discord.gg/zKFdRQ4z9D',
+    href: 'https://discord.com/channels/@me',
   },
   {
     name: 'linkedin',
     url: '/linkedin.svg',
-    href: 'https://www.linkedin.com/authwall?trk=bf&trkInfo=AQFx5DDyMtDHlwAAAYzdvY-IdZOXMNqamWkeKzZQdyYytS5v4rnk6NUb7efZRQdNWS1-zOQS7SQ0ifW0sKyRTagpY_ksTcJ9QwPZDXBAz-WuBhgRWZ-UZbdl_DXBh6kcbYZjf40=&original_referer=&sessionRedirect=https%3A%2F%2Fwww.linkedin.com%2Fcompany%2Fieee-student-branch-jiit',
+    href: 'https://www.linkedin.com/in/Amanthegarg/',
   },
   {
     name: 'instagram',
     url: '/instagram.svg',
-    href: 'https://www.instagram.com/ieeesbjiit/',
+    href: 'https://www.instagram.com/amanthegarg2003/',
   },
   {
     name: 'facebook',
     url: '/facebook.svg',
-    href: 'https://www.facebook.com/ieeesbjiit/',
+    href: 'https://www.facebook.com/',
   },
 ];

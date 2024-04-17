@@ -1,17 +1,17 @@
 
 'use client';
 
-import { motion } from 'framer-motion';
-import './hero.css';
+import { motion } from "framer-motion";
+import "./hero.css";
 
-import { useEffect } from 'react';
-import styles from '../styles';
-import { slideIn, staggerContainer, textVariant } from '../utils/motion';
+import { useEffect } from "react";
+import styles from "../styles";
+import { slideIn, staggerContainer, textVariant } from "../utils/motion";
 
 function Hero() {
   useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    const script = document.createElement("script");
+    script.src = "https://apply.devfolio.co/v2/sdk.js";
     script.async = true;
     script.defer = true;
     document.body.appendChild(script);
@@ -37,16 +37,18 @@ function Hero() {
             className="apply-button"
             data-hackathon-slug="hackstreet24"
             data-button-theme="light"
-            style={{ height: '44px', width: '312px' }}
+            style={{ height: "44px", width: "312px" }}
           />
-
           <button className="Btn font-normal" type="button">
-            <a href="https://discord.com/invite/zKFdRQ4z9D">Discord</a>
+            <a href="">Scan</a>
+          </button>
+          <button className="Btn font-normal" type="button">
+            <a href="">Upload</a>
           </button>
         </div>
 
         <motion.div
-          variants={slideIn('right', 'tween', 0.1, 1.5)}
+          variants={slideIn("right", "tween", 0.1, 1.5)}
           className="relative w-full md:-mt-[-70px] -mt-[-20px]"
         >
           <div className="absolute w-full h-[300px] hero-gradient rounded-tl-[140px] z-[0] -top-[30px]" />
