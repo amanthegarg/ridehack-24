@@ -1,3 +1,4 @@
+
 'use client';
 
 import { motion } from 'framer-motion';
@@ -28,26 +29,8 @@ function Hero() {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <div
-          className="flex justify-center items-center flex-col  z-10 lg:mt-[70px] mt-[70px]"
-          id="heroPage"
-        >
-          <motion.h1
-            variants={textVariant(1.1)}
-            className={styles.heroHeading}
-            id="head"
-          >
-            The Incognito
-          </motion.h1>
-          <motion.div
-            variants={textVariant(1.1)}
-            className="flex flex-row justify-center items-center"
-          >
-            <h1 className={styles.heroHeading}>Realm</h1>
-            {/* <div className={styles.heroDText} />
-          <h1 className={styles.heroHeading}>Ness</h1> */}
-          </motion.div>
-        </div>
+
+        
 
         <div className="frontPageBtn">
           <div
@@ -82,8 +65,11 @@ function Hero() {
               />
             </div>
           </a>
+
+          
         </motion.div>
-      </motion.div>
+        </motion.div>
+  
     </section>
   );
 }

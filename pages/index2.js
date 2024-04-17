@@ -4,6 +4,7 @@ import {
   Explore,
   Feedback,
   GetStarted,
+  SignIn,
   Hero,
   Insights,
   WhatsNew,
@@ -22,6 +23,8 @@ function Page() {
       </div>
       <div className="relative">
         <GetStarted />
+        
+        <SignIn />
         <div className="gradient-04" />
         <WhatsNew />
       </div>

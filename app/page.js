@@ -5,6 +5,7 @@ import {
   Explore,
   Feedback,
   GetStarted,
+  SignIn,
   Hero,
   Insights,
   WhatsNew,
@@ -26,6 +27,9 @@ function Page() {
       <div className="relative">
         <div className="prizeGradient" />
         <GetStarted />
+        
+        <SignIn />
+
         <div className="gradient-04" />
         <WhatsNew />
         <div className="gradient-10" />
