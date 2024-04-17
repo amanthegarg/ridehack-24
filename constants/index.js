@@ -16,7 +16,7 @@ export const exploreWorlds = [
   },
   {
     id: 'murder-4',
-    imgUrl: '/envir.jpg',
+    imgUrl: '/image3.jpg',
     title: 'Environment',
   },
   {
