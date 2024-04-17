@@ -1,3 +1,5 @@
+'use client';
+
 import React, { useState } from 'react';
 import './SignIn.css'; // Import CSS file
 
