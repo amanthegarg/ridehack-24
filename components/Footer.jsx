@@ -63,6 +63,8 @@ function Footer() {
               <IoLocationSharp className="text-3xl" />
               <div>
                 <p> SmartMed</p>
+                <p>JIIT-62</p>
+                <p>Noida</p>
                 
               </div>
             </div>
@@ -91,30 +93,13 @@ function Footer() {
               </div>
               <div className="flex flex-row gap-3 items-center">
                 <MdEmail />
-                <a href="mailto:SmartMed@gmail.com" id="gmail">
-                  SmartMed@gmail.com
+                <a href="mailto:smartmedicne@gmail.com" id="gmail">
+                smartmedicne@gmail.com
                 </a>
               </div>
             </div>
 
-            <div className="flex flex-col font-bold text-[24px] text-white gap-4">
-              
-              <div className="flex gap-4">
-                {socials.map((social, index) => (
-                  // eslint-disable-next-line react/button-has-type
-                  <button className="social-btn" key={index}>
-                    <a href={social.href} target="_main">
-                      <img
-                        key={social.name}
-                        src={social.url}
-                        alt={social.name}
-                        className="w-[24px] h-[24px] object-contain cursor-pointer"
-                      />
-                    </a>
-                  </button>
-                ))}
-              </div>
-            </div>
+            
           </div>
         </div>
       </div>
