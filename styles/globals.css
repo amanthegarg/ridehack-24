@@ -10,7 +10,7 @@
   scroll-behavior: smooth;
 }
 
-.gradient-01 {
+/* .gradient-01 {
   background-image: linear-gradient(
     270deg,
     hsl(258, 68%, 36%) 0%,
@@ -22,14 +22,14 @@
     hsl(252, 63%, 45%) 100%
   );
   filter: blur(125px);
-}
+} */
 
 .hero-gradient {
   background: linear-gradient(
     97.86deg,
-    #a509ff 0%,
-    #34acc7 53.65%,
-    #a134c7 100%
+    #f8f8fb 0%,
+    #f8f8fb 53.65%,
+    #f8f8fb 100%
   );
 }
 
@@ -40,16 +40,16 @@
   top: 0px;
   right: 0px;
 
-  background: #7aebfb;
+  background: #f8f8fb;
   filter: blur(190px);
 }
 
 .glassmorphism {
-  background: rgba(255, 255, 255, 0.25);
-  box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+  background: rgba(7, 180, 238, 0.54);
+  box-shadow: 0 8px 32px 0 rgba(7, 180, 238, 0.54);
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
-  border: 1px solid rgba(255, 255, 255, 0.18);
+  border: 1px solid rgba(7, 180, 238, 0.54);
 }
 
 .gradient-03 {
@@ -59,7 +59,7 @@
   left: 20%;
   top: 5%;
 
-  background: rgba(100, 90, 110, 0.35);
+  background: rgba(7, 180, 238, 0.54);
   filter: blur(175px);
   transform: rotate(-114.2deg);
 }
@@ -71,7 +71,7 @@
   left: 30%;
   top: 110%;
 
-  background: rgba(242, 255, 184, 0.54);
+  background: rgba(7, 180, 238, 0.54);
   filter: blur(200px);
   transform: rotate(-53.13deg);
 }
@@ -79,8 +79,8 @@
 .gradient-05 {
   background: linear-gradient(
     180deg,
-    rgba(255, 255, 255, 0.04) 0%,
-    rgba(255, 255, 255, 0) 100%
+    rgba(7, 180, 238, 0.54); 0%,
+     rgba(7, 180, 238, 0.54); 100%
   );
 }
 
@@ -91,12 +91,12 @@
   left: 0px;
   top: 0px;
 
-  background: #8d39a3;
+  background: #f8f8fb;
   filter: blur(175px);
 }
 
 .prizeGradient{
-    background: #62549bbe;
+    background: #f8f8fb;
     filter: blur(150px);
     width: 500px;
     height: 300px;
@@ -106,7 +106,7 @@
 }
 
 .gradient-10{
-      background: #858196be;
+      background: #f8f8fb;
         filter: blur(150px);
         width: 500px;
         height: 300px;
@@ -123,6 +123,6 @@
   left: 37%;
   bottom: 0;
 
-  background: #65c4fa;
+  background: #f8f8fb;
   filter: blur(150px);
 }
