@@ -17,13 +17,9 @@ export const exploreWorlds = [
   {
     id: 'murder-4',
     imgUrl: '/stock.jpg',
-    title: 'Medicine stocks',
+    title: 'Medicine Availability',
   },
-  // {
-  //   id: 'Murder-5',
-  //   imgUrl: '/openin.jpg',
-  //   title: 'Open Innovation',
-  // },
+
 ];
 
 export const startingFeatures = [
@@ -64,27 +60,20 @@ export const newFeatures2 = [
 export const insights = [
   {
     imgUrl: '/image32.jpeg',
-    title: ' Question 1 ',
-    subtitle: 'Answer',
+    title: 'How will I find nearby dispensaries?',
+    subtitle: "You can easily find nearby dispensaries using our website's location-based feature. Simply allow location access, and we'll show you the nearest options for your convenience.",
   },
   {
     imgUrl: '/image30.jpeg',
-    title: ' Question 2',
-    subtitle:
-      '  Answer ',
+    title: 'How do I know which dispensaries are open right now?',
+    subtitle: " Our platform provides real-time updates on dispensary operating hours. You can check the status of nearby dispensaries anytime, ensuring you always know when they're open.",
   },
   {
     imgUrl: '/image36.jpeg',
-    title: ' Question 3',
-    subtitle:
-      ' Answer ',
+    title: ' Where does the stock information come from?',
+    subtitle: 'The stock information is sourced directly from dispensaries and medical shops through our partnerships. We ensure the data is up-to-date and reliable for your convenience.',
   },
-  {
-    imgUrl: '/image34.jpeg',
-    title: '   Question 4',
-    subtitle:
-      ' Answer ',
-  },
+
   {
     imgUrl: '/image31.jpeg',
     title: '   I have more questions?',
