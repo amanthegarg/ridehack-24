@@ -1,7 +1,7 @@
 'use client';
 
 import React, { useState } from 'react';
-import './SignIn.css'; // Import CSS file
+//import './SignIn.css'; // Import CSS file
 
 function SignIn() {
   const [formData, setFormData] = useState({
@@ -31,7 +31,7 @@ function SignIn() {
   return (
     <div className="signin-container">
       <h2 className="signin-heading">Sign In</h2>
-      <form onSubmit={handleSubmit} className="signin-form">
+      {/* <form onSubmit={handleSubmit} className="signin-form">
         <label htmlFor="username">Username:</label>
         <input
           type="text"
@@ -51,7 +51,7 @@ function SignIn() {
           required
         />
         <button type="submit" className="signin-btn">Sign In</button>
-      </form>
+      </form> */}
     </div>
   );
 }

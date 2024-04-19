@@ -35,14 +35,14 @@ function ExploreCard({ id, imgUrl, title, index, active, handleClick }) {
             className={`${styles.flexCenter} w-[60px] h-[60px] rounded-[24px] glassmorphism mb-[16px]`}
           >
             <img
-              src="/headset.svg"
-              alt="headset"
+              src="/injection.svg"
+              alt="injection"
               className="w-1/2 h-1/2 object-contain"
             />
           </div>
-          <p className="font-normal text-[16px] leading-[20px] text-white uppercase">
+          {/* <p className="font-normal text-[16px] leading-[20px] text-white uppercase">
             Enter the Hackstreet 2.0
-          </p>
+          </p> */}
           <h2 className="mt-[24px] font-semibold sm:text-[32px] text-[24px] text-white">
             {title}
           </h2>

@@ -4,7 +4,7 @@ import {
   Explore,
   Feedback,
   GetStarted,
-  SignIn,
+ 
   Hero,
   Insights,
   WhatsNew,
@@ -13,25 +13,25 @@ import {
 
 function Page() {
   return (
-    <div className="bg-primary-black overflow-hidden">
+    <div className="glassmorphism">
       <Navbar />
       <Hero />
-      <div className="relative">
+      <div className="glassmorphism">
         <About />
-        <div className="gradient-03" />
+        <div className="glassmorphism" />
         <Explore />
       </div>
       <div className="relative">
         <GetStarted />
         
-        <SignIn />
-        <div className="gradient-04" />
+        {/* <SignIn /> */}
+        <div className="glassmorphism" />
         <WhatsNew />
       </div>
       <World />
-      <div className="relative">
+      <div className="glassmorphism">
         <Insights />
-        <div className="gradient-04" />
+        <div className="glassmorphism" />
         <Feedback />
       </div>
       <Footer />

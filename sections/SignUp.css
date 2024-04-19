@@ -36,7 +36,7 @@
     background-color: #0056b3;
   } */
   
-
+/* 
   .signup-container {
     width: 400px;
     margin: 0 auto;
@@ -74,5 +74,52 @@
   
   .signup-btn:hover {
     background-color: #0056b3;
+  }
+   */
+
+   .container {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #6a87c5;
+    border-radius: 5px;
+    background-color: #6a87c5;
+  }
+  
+  h1 {
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  input {
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  p {
+    text-align: center;
+    cursor: pointer;
+    color: #000000e9;
+  }
+  
+  p:hover {
+    text-decoration: underline;
   }
   

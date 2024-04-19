@@ -21,12 +21,12 @@ function WhatsNew() {
           variants={fadeIn('left', 'tween', 0.2, 1)}
           className="flex-[0.75] flex justify-center flex-col"
         >
-          <div className="w-[90vw]">
+          {/* <div className="w-[90vw]">
             <TitleText title="s🏆" textStyles="text-center" />
-          </div>
-          <div className="w-[90vw]">
+          </div> */}
+          {/* <div className="w-[90vw]">
             <TitleText title="PRIZE POOL OF INR 50K" textStyles="text-center" />
-          </div>
+          </div> */}
           <div className="mt-[48px] flex flex-wrap justify-between gap-[24px]">
             {newFeatures.map((feature) => (
               <NewFeatures key={feature.title} {...feature} />
@@ -55,11 +55,11 @@ function WhatsNew() {
           variants={planetVariants('left')}
           className={`flex-1 ${styles.flexCenter}`}
         >
-          <img
+          {/* <img
             src="/revimage20(reverse).png"
             alt="whats-new"
             className="w-[97%] h-[97%] object-contain"
-          />
+          /> */}
         </motion.div>
         <motion.div
           variants={fadeIn('left', 'tween', 0.2, 1)}

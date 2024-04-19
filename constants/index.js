@@ -2,28 +2,28 @@ export const exploreWorlds = [
   {
     id: 'Murder-1',
     imgUrl: '/image1.jpg',
-    title: 'Education',
+    title: 'Medicine Information',
   },
   {
     id: 'Murder-2',
     imgUrl: '/image2.jpg',
-    title: 'Web 3.0/Blockchain',
+    title: ' Prescription Upload',
   },
   {
     id: 'murder-3',
-    imgUrl: '/health.jpg',
-    title: 'Healthcare',
+    imgUrl: '/imagedia.jpg',
+    title: 'Diagnostic Reports',
   },
-  {
-    id: 'murder-4',
-    imgUrl: '/envir.jpg',
-    title: 'Environment',
-  },
-  {
-    id: 'Murder-5',
-    imgUrl: '/openin.jpg',
-    title: 'Open Innovation',
-  },
+//   {
+//     id: 'murder-4',
+//     imgUrl: '/stock.jpg',
+//     title: 'Medicine stocks',
+//   },
+//   {
+//     id: 'Murder-5',
+//     imgUrl: '/openin.jpg',
+//     title: 'Open Innovation',
+//   },
 ];
 
 export const startingFeatures = [
@@ -35,30 +35,30 @@ export const newFeatures = [
 
 ];
 export const newFeatures2 = [
-  {
-    imgUrl: '/trophy.svg',
-    title: 'WINNER',
-    subtitle:
-        'Prize will be given to a project that outstands all other submissions.',
-  },
-  {
-    imgUrl: '/trophy.svg',
-    title: '1st RUNNER UP',
-    subtitle:
-        '1st Runner-up prize will be given to the second best project of the hackathon.',
-  },
-  {
-    imgUrl: '/trophy.svg',
-    title: '2nd RUNNER UP',
-    subtitle:
-        '2nd Runner-up project of the hackathon will win some awesome prizes.',
-  },
-  // {
-  //   imgUrl: '/headset.svg',
-  //   title: 'ALL GIRLS TEAM',
-  //   subtitle:
-  //       'Will be awarded to the project of hackathon which was made by an all girls team.',
-  // },
+//   {
+//     imgUrl: '/trophy.svg',
+//     title: 'WINNER',
+//     subtitle:
+//         'Prize will be given to a project that outstands all other submissions.',
+//   },
+//   {
+//     imgUrl: '/trophy.svg',
+//     title: '1st RUNNER UP',
+//     subtitle:
+//         '1st Runner-up prize will be given to the second best project of the hackathon.',
+//   },
+//   {
+//     imgUrl: '/trophy.svg',
+//     title: '2nd RUNNER UP',
+//     subtitle:
+//         '2nd Runner-up project of the hackathon will win some awesome prizes.',
+//   },
+//   // {
+//   //   imgUrl: '/headset.svg',
+//   //   title: 'ALL GIRLS TEAM',
+//   //   subtitle:
+//   //       'Will be awarded to the project of hackathon which was made by an all girls team.',
+//   // },
 ];
 
 export const insights = [

@@ -202,84 +202,133 @@ function GetStarted() {
 export default GetStarted;
 */
 
+// import React, { useState } from 'react';
+// import './SignUp.css'; // Import CSS file
+
+// function GetStarted() {
+//   const [formData, setFormData] = useState({
+//     username: '',
+//     email: '',
+//     password: '',
+//     confirmPassword: ''
+//   });
+
+//   const handleChange = (e) => {
+//     const { name, value } = e.target;
+//     setFormData({
+//       ...formData,
+//       [name]: value
+//     });
+//   };
+
+//   const handleSubmit = (e) => {
+//     e.preventDefault();
+//     // Add your signup logic here
+//     console.log(formData);
+//     // Reset form fields
+//     setFormData({
+//       username: '',
+//       email: '',
+//       password: '',
+//       confirmPassword: ''
+//     });
+//   };
+
+//   return (
+//     <div className="signup-container">
+      
+//       <form onSubmit={handleSubmit} className="signup-form">
+//         <label htmlFor="username">Username:</label>
+//         <input
+//           type="text"
+//           id="username"
+//           name="username"
+//           value={formData.username}
+//           onChange={handleChange}
+//           required
+//         />
+//         <label htmlFor="phoneNumber">Phone Number:</label>
+//         <input
+//           type="tel"
+//           id="phoneNumber"
+//           name="phoneNumber"
+//           value={formData.phoneNumber}
+//           onChange={handleChange}
+//           required
+//         />
+//         <label htmlFor="password">Password:</label>
+//         <input
+//           type="password"
+//           id="password"
+//           name="password"
+//           value={formData.password}
+//           onChange={handleChange}
+//           required
+//         />
+//         <label htmlFor="confirmPassword">Confirm Password:</label>
+//         <input
+//           type="password"
+//           id="confirmPassword"
+//           name="confirmPassword"
+//           value={formData.confirmPassword}
+//           onChange={handleChange}
+//           required
+//         />
+//         <button type="submit" className="signup-btn">Sign Up</button>
+//       </form>
+//     </div>
+//   );
+// }
+
+// export default GetStarted;
+
+
 import React, { useState } from 'react';
-import './SignUp.css'; // Import CSS file
+import './SignUp.css'; // Import your CSS file for styling
+//import { GetStarted } from '.';
 
 function GetStarted() {
-  const [formData, setFormData] = useState({
-    username: '',
-    email: '',
-    password: '',
-    confirmPassword: ''
-  });
+  const [email, setEmail] = useState('');
+  const [password, setPassword] = useState('');
+  const [isSignUp, setIsSignUp] = useState(false);
 
-  const handleChange = (e) => {
-    const { name, value } = e.target;
-    setFormData({
-      ...formData,
-      [name]: value
-    });
+  const handleSignUp = () => {
+    // Implement sign up logic here
+    console.log('Signing up with email:', email, 'and password:', password);
+    // You can send a request to your backend API for signing up
   };
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Add your signup logic here
-    console.log(formData);
-    // Reset form fields
-    setFormData({
-      username: '',
-      email: '',
-      password: '',
-      confirmPassword: ''
-    });
+  const handleSignIn = () => {
+    // Implement sign in logic here
+    console.log('Signing in with email:', email, 'and password:', password);
+    // You can send a request to your backend API for signing in
   };
 
   return (
-    <div className="signup-container">
-      
-      <form onSubmit={handleSubmit} className="signup-form">
-        <label htmlFor="username">Username:</label>
-        <input
-          type="text"
-          id="username"
-          name="username"
-          value={formData.username}
-          onChange={handleChange}
-          required
-        />
-        <label htmlFor="phoneNumber">Phone Number:</label>
-        <input
-          type="tel"
-          id="phoneNumber"
-          name="phoneNumber"
-          value={formData.phoneNumber}
-          onChange={handleChange}
-          required
-        />
-        <label htmlFor="password">Password:</label>
-        <input
-          type="password"
-          id="password"
-          name="password"
-          value={formData.password}
-          onChange={handleChange}
-          required
-        />
-        <label htmlFor="confirmPassword">Confirm Password:</label>
-        <input
-          type="password"
-          id="confirmPassword"
-          name="confirmPassword"
-          value={formData.confirmPassword}
-          onChange={handleChange}
-          required
-        />
-        <button type="submit" className="signup-btn">Sign Up</button>
-      </form>
+    <div className="container">
+      <h1>{isSignUp ? 'Sign Up' : 'Sign In'}</h1>
+      <input
+        type="email"
+        placeholder="Email"
+        value={email}
+        onChange={(e) => setEmail(e.target.value)}
+      />
+      <input
+        type="password"
+        placeholder="Password"
+        value={password}
+        onChange={(e) => setPassword(e.target.value)}
+      />
+      {isSignUp ? (
+        <button onClick={handleSignUp}>Sign Up</button>
+      ) : (
+        <button onClick={handleSignIn}>Sign In</button>
+      )}
+      <p onClick={() => setIsSignUp(!isSignUp)}>
+        {isSignUp ? 'Already have an account? Sign in' : 'Don\'t have an account? Sign up'}
+      </p>
     </div>
   );
 }
 
 export default GetStarted;
-
-

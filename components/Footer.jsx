@@ -21,14 +21,14 @@ import { footerVariants } from '../utils/motion';
 
 function Footer() {
   useEffect(() => {
-    const script = document.createElement('script');
-    script.src = 'https://apply.devfolio.co/v2/sdk.js';
-    script.async = true;
-    script.defer = true;
-    document.body.appendChild(script);
-    return () => {
-      document.body.removeChild(script);
-    };
+    // const script = document.createElement('script');
+    // script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    // script.async = true;
+    // script.defer = true;
+    // document.body.appendChild(script);
+    // return () => {
+    //   document.body.removeChild(script);
+    // };
   }, []);
 
   return (
@@ -59,39 +59,41 @@ function Footer() {
           <div className="flex items-center justify-between flex-wrap gap-4 resp">
             
           
-            <div className="font-bold text-[100%] text-white opacity-50 flex flex-row">
-              <IoLocationSharp className="text-3xl" />
-              <div>
-                <p> SmartMed</p>
+            <div className="font-bold text-[100%]  flex flex-row">
+              <IoLocationSharp className="text-3xl text-white" />
+              <div className='text-white'>
+                < p> 
+                SmartMed
+                </p>
                 <p>JIIT-62</p>
                 <p>Noida</p>
                 
               </div>
             </div>
 
-            <div className="font-bold text-[100%]  text-white opacity-50 contact">
-              <div className="flex flex-row gap-3 items-center">
+            <div className="font-bold text-[100%]   contact">
+              <div className="flex flex-row gap-3 items-center text-white">
                 <FaPhoneAlt />
-                <p className='text-[15px]'>
+                <p className='text-[15px] text-white'>
                   Aman Garg:{' '}
                   <a href="tel:+916378432315">+91 63784 32315</a>
                 </p>
               </div>
-              <div className="flex flex-row gap-3 items-center">
+              <div className="flex flex-row gap-3 items-center text-white">
                 <FaPhoneAlt />
-                <p className='text-[15px]'>
+                <p className='text-[15px] text-white'>
                   Vaibhav Vinayak :{' '}
                   <a href="tel:+91 7761910979">+91 77619 10979</a>
                 </p>
               </div>
-              <div className="flex flex-row gap-3 items-center">
+              <div className="flex flex-row gap-3 items-center text-white">
                 <FaPhoneAlt />
-                <p className='text-[15px]'>
+                <p className='text-[15px] text-white'>
                   Priyanshu Bansal :{' '}
                   <a href="tel:+91 9024022426">+91 90240 22426</a>
                 </p>
               </div>
-              <div className="flex flex-row gap-3 items-center">
+              <div className="flex flex-row gap-3 items-center text-white">
                 <MdEmail />
                 <a href="mailto:smartmedicne@gmail.com" id="gmail">
                 smartmedicne@gmail.com

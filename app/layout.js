@@ -17,8 +17,8 @@ function RootLayout({ children }) {
           name="keywords"
           content="Hackathon, Hackstreet, Hackstreet 2.0, Hackers"
         />
-        <link rel="icon" href="/hackstreetlogo.ico" />
-        <title>Hackstreet 2.0</title>
+        <link rel="icon" href="/SmartMedlogo1.ico" />
+        <title>SmartMed</title>
       </head>
       <body>{children}</body>
     </html>

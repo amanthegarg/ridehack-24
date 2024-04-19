@@ -18,7 +18,7 @@ function About() {
         className={`${styles.innerWidth} mx-auto ${styles.flexCenter} flex-col`}
       >
         <TitleText
-          title="About SmartMed"
+          title="What we do?"
           textStyles="text-center"
           className="my-5"
         />
@@ -35,12 +35,12 @@ function About() {
           
         </motion.p>
 
-        <motion.img
+        {/* <motion.img
           variants={fadeIn("up", "tween", 0.3, 1)}
           src="/arrow-down.svg"
           alt="arrow down"
           className="w-[18px] h-[28px] object-contain mt-[28px]"
-        />
+        /> */}
       </motion.div>
     </section>
   );

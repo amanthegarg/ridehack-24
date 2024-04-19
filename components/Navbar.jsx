@@ -20,14 +20,14 @@ function Navbar() {
           <Link className="navParts" to="home">SmartMed</Link>
         </h2>
       </div>
-      <div className="NavBar-desc">
+      {/* <div className="NavBar-desc">
         <Link className="navParts" to="home">HOME</Link>
         <Link className="navParts" to="about">ABOUT</Link>
         <Link className="navParts" to="prize">PRIZE</Link>
         <Link className="navParts" to="faq">FAQs</Link>
         <Link className="navParts" to="sponser">PARTNERS</Link>
 
-      </div>
+      </div> */}
       <button type="button" onClick={handleNavClick} className="menuButton">
         <img id="menuImg" src="/menuBtn.png" />
       </button>

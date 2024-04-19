@@ -26,7 +26,7 @@ function Explore() {
         viewport={{ once: false, amount: 0.25 }}
         className={`${styles.innerWidth} mx-auto flex flex-col`}
       >
-        <TitleText title={<>🗡THEMES🗡</>} textStyles="text-center" />
+        {/* <TitleText title={<>🗡THEMES🗡</>} textStyles="text-center" /> */}
         <div className="mt-[50px] flex lg:flex-row flex-col min-h-[100vh] gap-5">
           {exploreWorlds.map((world, index) => (
             <ExploreCard
