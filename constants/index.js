@@ -16,25 +16,14 @@ export const exploreWorlds = [
   },
   {
     id: 'murder-4',
-    imgUrl: '/image3.jpg',
-    title: 'Environment',
+    imgUrl: '/stock.jpg',
+    title: 'Medicine stocks',
   },
-  {
-    // id: 'Murder-5',
-    // imgUrl: '/openin.jpg',
-    // title: 'Open Innovation',
-
-  },
-//   {
-//     id: 'murder-4',
-//     imgUrl: '/stock.jpg',
-//     title: 'Medicine stocks',
-//   },
-//   {
-//     id: 'Murder-5',
-//     imgUrl: '/openin.jpg',
-//     title: 'Open Innovation',
-//   },
+  // {
+  //   id: 'Murder-5',
+  //   imgUrl: '/openin.jpg',
+  //   title: 'Open Innovation',
+  // },
 ];
 
 export const startingFeatures = [
