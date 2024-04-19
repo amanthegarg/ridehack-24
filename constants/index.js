@@ -14,6 +14,17 @@ export const exploreWorlds = [
     imgUrl: '/imagedia.jpg',
     title: 'Diagnostic Reports',
   },
+  {
+    id: 'murder-4',
+    imgUrl: '/image3.jpg',
+    title: 'Environment',
+  },
+  {
+    // id: 'Murder-5',
+    // imgUrl: '/openin.jpg',
+    // title: 'Open Innovation',
+
+  },
 //   {
 //     id: 'murder-4',
 //     imgUrl: '/stock.jpg',
